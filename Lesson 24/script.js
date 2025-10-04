@@ -19,7 +19,7 @@ function validate(e) {
     }
     else {
         message = 'Login Successful!';
-        msgBox.style.color = "green";
+        msgBox.style.color = 'green';
     }
     msgBox.innerText = message;
 }

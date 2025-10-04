@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Javascript Arrow Function</h2>
+        <p>This example shows an arrow function with a parameter.</p>
+        <p id="result 1"></p>
+        <p id="result 2"></p>
+        <p id="result 3"></p>
+        <p id="result 4"></p>
+        <script>
+            add=(a,b)=>a+b;
+            sub=(a,b)=>a-b;
+            mul=(a,b)=>a*b;
+            div=(a,b)=>a/b;
+            document.getElementById("result 1").innerHTML = add(6,2);
+            document.getElementById("result 2").innerHTML = sub(6, 2);
+            document.getElementById("result 3").innerHTML = mul(6, 2);
+            document.getElementById("result 4").innerHTML = div(6, 2);
+        </script>
+    </body>
+</html>
